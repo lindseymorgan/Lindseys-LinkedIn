@@ -417,6 +417,10 @@ main {
     padding: 0.8rem 0rem 0rem 1rem;
 }
 
+/* .feed-footer-buttons {
+    text-align: center;
+} */
+
 .feed-footer-buttons a {
     font-size: 1.5rem;
     padding: 1rem 2rem 1rem 1rem;
@@ -520,4 +524,107 @@ footer p a {
     header {
         grid-template-columns: 40% 60%;
     }
+}
+
+@media(max-width: 414px){
+
+    .content-box {
+        padding: 0.3rem;
+    }
+
+    .content-box-hr {
+        margin: 0.5rem;
+        width: 92%;
+    }
+
+    main {
+        padding: 0;
+    }
+
+/*     header {
+        grid-template-columns: 50% 50%;
+    } */
+
+    header input {
+        width: 100%;
+    }
+
+    .header-left a {
+        padding-left: 0.5rem;
+    }
+
+    .nav-item {
+        padding: 0;
+    }
+
+    .home-left {
+        margin: 0;
+        width: 40%;
+    }
+
+    .account-menu-jobs a {
+        padding: 0.4rem 0rem 0.4rem 0.4rem;
+    }
+
+    .trending h4 {
+        padding: 0.2rem 0 0.5rem 0.2rem;
+    }
+
+    .trending p {
+        padding: 0 0 0.3rem 0.6rem;
+    }
+
+    .learn h4 {
+        padding: 0.2rem 0 0.5rem 0.2rem;
+    }
+
+    .promoted-item img {
+        display: none;
+    }
+
+    .home-right {
+        margin: 0;
+        width: 60%;
+    }
+
+    .feed-content-box {
+        margin: 0.5rem !important;
+    }
+
+    .feed-1, .feed-2, .feed-3, .feed-4 {
+        padding: 0.4rem !important;
+    }
+
+    .feed-header {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .feed-header-text {
+        padding: 0;
+    }
+
+    .feed-content {
+        padding: 0.1rem 0.5rem;
+    }
+
+    .feed-footer-buttons a {
+        font-size: 1.3rem;
+        padding: 1rem 1rem 0.4rem 1rem;
+    }
+
+    .pbt {
+        display: none;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    .footer-nav {
+        grid-template-columns: 50% 50%;
+        grid-gap: 0.5rem;
+        text-align: center;
+    }
+
 }
