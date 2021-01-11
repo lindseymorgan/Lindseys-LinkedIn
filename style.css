@@ -1,5 +1,5 @@
 /* 
-Last Edit Published: 1/8/2021
+Date uploaded: 1/11/2021
 Author: Lindsey Costlow
 Author URL: lindseymorgancostlow.com */
 
@@ -137,7 +137,6 @@ main {
     border: 1px solid rgb(224, 224, 224);
     border-radius: 0.8rem;
     box-shadow: 0px 0px 5px rgb(224, 224, 224);
-    /* box-shadow: inset 0px 0px 4px rgb(224, 224, 224); */
     padding: 1.5rem;
     margin: 0.5rem;
 }
@@ -349,7 +348,7 @@ main {
     text-align: center;
 }
 
-.feed-1, .feed-2, .feed-3, .feed-4 {
+.feed-1, .feed-2, .feed-3 {
     padding: 1rem !important;
 }
 
@@ -416,10 +415,6 @@ main {
 .feed-footer p {
     padding: 0.8rem 0rem 0rem 1rem;
 }
-
-/* .feed-footer-buttons {
-    text-align: center;
-} */
 
 .feed-footer-buttons a {
     font-size: 1.5rem;
@@ -541,10 +536,6 @@ footer p a {
         padding: 0;
     }
 
-/*     header {
-        grid-template-columns: 50% 50%;
-    } */
-
     header input {
         width: 100%;
     }
@@ -587,17 +578,24 @@ footer p a {
         width: 60%;
     }
 
+    .post-icons {
+        padding: 1rem 0.5rem 0rem 0.5rem;
+    }
+
+    .pbt {
+        display: none;
+    }
+
     .feed-content-box {
         margin: 0.5rem !important;
     }
 
     .feed-1, .feed-2, .feed-3, .feed-4 {
-        padding: 0.4rem !important;
+        padding: 0.6rem !important;
     }
 
-    .feed-header {
-        text-align: center;
-        justify-content: center;
+    .feed-header-image {
+        display: none;
     }
 
     .feed-header-text {
@@ -613,8 +611,12 @@ footer p a {
         padding: 1rem 1rem 0.4rem 1rem;
     }
 
-    .pbt {
+    .recommended-job-image {
         display: none;
+    }
+
+    .recommended-job-text {
+        padding: 0.1rem 0 0.1rem 0.4rem;
     }
 
     footer {
